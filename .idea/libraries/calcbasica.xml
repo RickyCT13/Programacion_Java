@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="calcbasica">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../calcbasica" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../calcbasica3/src" />
+    </SOURCES>
+  </library>
+</component>
