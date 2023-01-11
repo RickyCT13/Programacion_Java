@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Act31composicionherencia/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Act31composicionherencia/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Act31composicionherencia/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Act31composicionherencia/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Act33/Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Act33/Vehiculo.java" afterDir="false" />
+    <list default="true" id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U3 Programacion DEF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U3 Programacion DEF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraccion/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraccion/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraccion/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraccion/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraccion/MainAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraccion/MainAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraccion/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraccion/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UsoLibreriaCalc/MainLC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsoLibreriaCalc/MainLC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relacion_entre_clases/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relacion_entre_clases/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relacion_entre_clases/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relacion_entre_clases/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +21,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0a72918c-fe7d-4ee7-bf77-572620f55d1c" />
+        <option name="url" value="https://github.com/RickyCT13/Programacion_Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,8 +74,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669711279855</updated>
       <workItem from="1673431193481" duration="114000" />
-      <workItem from="1673438566083" duration="1099000" />
+      <workItem from="1673438566083" duration="2036000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1673442883917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673442883917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +129,9 @@
         <entry key="13b69a18-0fa0-4838-8ad2-bf62fdbc2939" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
