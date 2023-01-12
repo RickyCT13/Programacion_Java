@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/src/Act_3_5_Polimorfismo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Act_3_5_Polimorfismo/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Act_3_5_Polimorfismo/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Act_3_5_Polimorfismo/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Act_3_5_Polimorfismo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actividad_3_4_Interfaces/Borrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actividad_3_4_Interfaces/Consola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actividad_3_4_Interfaces/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actividad_3_4_Interfaces/Imprimible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/ImpA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/ImpB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/Interfaz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/SubClaseB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/SubclaseA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polimorfismo/Superclase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Act33/Automovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Act33/Vehiculo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +34,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -60,12 +82,15 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "two.files.diff.last.used.file": "C:/Users/1DAW_2223_11/IdeaProjects/Calculadora/src/Calculadora.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\1DAW_2223_11\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="" />
@@ -74,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669711279855</updated>
       <workItem from="1673431193481" duration="114000" />
-      <workItem from="1673438566083" duration="2036000" />
+      <workItem from="1673438566083" duration="3579000" />
+      <workItem from="1673521697451" duration="6137000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -83,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673442883917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a">
+      <created>1673443336485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673443336485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
