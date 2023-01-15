@@ -10,5 +10,13 @@ public class Main {
         a = new Bird();
         a.speak();
         ((Bird) a).fly();
+        
+        Instrumento ins;
+        
+        ins = new Guitarra();
+        ins.tocar();
+        
+        ins = new Tambor();
+        ins.tocar();
     }
 }
