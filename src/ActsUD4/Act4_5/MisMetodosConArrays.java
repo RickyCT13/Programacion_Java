@@ -67,12 +67,8 @@ public class MisMetodosConArrays {
     }
     public static int[] insert (int[] a, int[] b) {
         int[] c = new int[a.length + b.length];
-        int i;
-        for (i = 0; i < a.length; i++) {
-            c[i] = a[i];
-        }
-        for (i = a.length; i < b.length; i++) {
-            c[i] = b[(i - a.length)];
+        for (int i = 0; i < a.length; i++) {
+
         }
         return c;
     }
