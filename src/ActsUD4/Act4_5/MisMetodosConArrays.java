@@ -55,13 +55,26 @@ public class MisMetodosConArrays {
 
     public static int[] insert (int[] a, int value, int pos) {
         int[] newArray = new int[a.length + 1];
-        a[pos] = value;
-        for (int i = 0; i < newArray.length - 1; i++) {
-            if (i != pos) {
-                newArray[i] = a[i];
-            }
+        for (int i = 0; i < pos; i++) {
+            newArray[i] = a[i];
         }
+        for (int i = pos + 1; i < newArray.length; i++) {
+            newArray[i] = a[i-1];
+        }
+        newArray[pos] = value;
+
         return newArray;
+    }
+    public static int[] insert (int[] a, int[] b) {
+        int[] c = new int[a.length + b.length];
+        int i;
+        for (i = 0; i < a.length; i++) {
+            c[i] = a[i];
+        }
+        for (i = a.length; i < b.length; i++) {
+            c[i] = b[(i - a.length)];
+        }
+        return c;
     }
 }
 
