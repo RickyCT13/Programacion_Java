@@ -1,4 +1,4 @@
-package Unidad_4_Estructuras_De_Datos.Arrays;
+package ActsUD4.Arrays;
 public class Main {
     public static void main(String[] args) {
         // Crear e imprimir por consola un array de los 5 primeros numeros enteros

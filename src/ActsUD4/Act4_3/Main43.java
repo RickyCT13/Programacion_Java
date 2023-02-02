@@ -1,19 +1,19 @@
-package Unidad_4_Estructuras_De_Datos.Act4_3;
+package ActsUD4.Act4_3;
 
 import java.util.Arrays;
 
 public class Main43 {
     public static void main(String[] args) {
-        int[] a = Metodos.arrayRand();
+        int[] a = MisMetodosConArrays.arrayRand();
         int[] b = {1, 2, 3, 5, 7, 9, 13, 15, 20, 21};
         int[] c1 = {2,4,6,8};
         int[] c2 = {1,3,5,7};
-        Metodos.printArrayInv(a);
-        Metodos.searchSequential(a, 7);
-        Metodos.searchBinary(a, 7);
-        Metodos.searchSequential(b, 7);
-        Metodos.sortArray(a);
-        if (!Metodos.compareArrays(c1, c2)) {
+        MisMetodosConArrays.printArrayInv(a);
+        MisMetodosConArrays.searchSequential(a, 7);
+        MisMetodosConArrays.searchBinary(a, 7);
+        MisMetodosConArrays.searchSequential(b, 7);
+        MisMetodosConArrays.sortArray(a);
+        if (!MisMetodosConArrays.compareArrays(c1, c2)) {
             System.out.println("Unidad_4_Estructuras_De_Datos.Arrays distintos");
         }
         else {

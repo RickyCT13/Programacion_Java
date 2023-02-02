@@ -1,8 +1,8 @@
-package Unidad_4_Estructuras_De_Datos.Act4_3;
+package ActsUD4.Act4_3;
 
 import java.util.Arrays;
 
-public class Metodos {
+public class MisMetodosConArrays {
 
     public static int[] arrayRand() {
         int[] a = new int[10];
@@ -51,6 +51,17 @@ public class Metodos {
             }
         }
         return false;
+    }
+
+    public static int[] insert (int[] a, int value, int pos) {
+        int[] newArray = new int[a.length + 1];
+        for (int i = 0; i < newArray.length; i++) {
+            if (i != pos) {
+                newArray[i] = a[i];
+            }
+        }
+        a[pos] = value;
+        return newArray;
     }
 }
 
