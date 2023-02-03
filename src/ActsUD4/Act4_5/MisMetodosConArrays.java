@@ -1,6 +1,8 @@
 package ActsUD4.Act4_5;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class MisMetodosConArrays {
 
@@ -55,6 +57,10 @@ public class MisMetodosConArrays {
 
     public static int[] insert (int[] a, int value, int pos) {
         int[] newArray = new int[a.length + 1];
+        if (pos < 0 || pos > a.length) {
+            System.out.println("Error: Índice negativo o fuera de límites.");
+            return null;
+        }
         for (int i = 0; i < pos; i++) {
             newArray[i] = a[i];
         }
@@ -65,12 +71,51 @@ public class MisMetodosConArrays {
 
         return newArray;
     }
-    public static int[] insert (int[] a, int[] b) {
+    public static int[] insert (int[] a, int[] b, int pos) {
         int[] c = new int[a.length + b.length];
-        for (int i = 0; i < a.length; i++) {
-
+        int i = 0;
+        if (pos < 0 || pos > a.length) {
+            System.out.println("Error: Índice negativo o fuera de límites.");
+            return null;
+        }
+        for (i = 0; i < pos; i++) {
+            c[i] = a[i];
+        }
+        for (i = pos; i < pos + b.length ; i++) {
+            c[i] = b[i - pos];
+        }
+        for (i = pos + b.length; i < c.length; i++) {
+            c[i] = a[i - b.length];
         }
         return c;
+    }
+
+    public static int[] erase (int[] a, int value, boolean logical) {
+        int index = Arrays.binarySearch(a, value);
+        if (index < 0) {
+            return a;
+        }
+        else {
+            if (logical) {
+                a[index] = 0;
+                return a;
+            }
+            int[] a1 = new int[a.length - 1];
+            System.arraycopy(a, 0, a1, 0, index);
+            if (a.length != index) {
+                System.arraycopy(a, index + 1, a1, index, a.length - index - 1);
+            }
+            return a1;
+        }
+    }
+
+    public static int[] switchPosEvenToOdd (int[] a) {
+        int[] a1 = new int[a.length];
+        for (int i = 0, j = 1; i < a.length && j < a.length; i++, j++) {
+            a1[j] = a[i];
+            a1[i] = a[j];
+        }
+        return a1;
     }
 }
 
