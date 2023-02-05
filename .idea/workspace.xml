@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="12/Enero/2022: Actividad 3.5 Terminada y Actividad 3.4 a medio hacer." />
+    <list default="true" id="3d8ffc02-b024-4362-ab96-34eb6ba09fc6" name="Changes" comment="12/Enero/2022: Actividad 3.5 Terminada y Actividad 3.4 a medio hacer.">
+      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Act_4_6/MetodosArraysCadenas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Act_4_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Act_4_6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD4/ActivStrings/MainStrings.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
