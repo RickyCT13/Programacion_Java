@@ -24,8 +24,6 @@ public class MetodosArraysCadenas {
         System.out.println("El caracter " + target + " se ha encontrado " + contador + " veces.");
     }
 
-
-
     public static void printStringsInAlphabeticalOrder(String[] cadenas) {
         Arrays.sort(cadenas);
         System.out.println(Arrays.toString(cadenas));
