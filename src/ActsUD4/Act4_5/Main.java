@@ -7,6 +7,10 @@ public class Main {
         int[] a1 = {2, 4, 13, 5};
         System.out.println(Arrays.toString(a1));
 
+        int[] test = new int[5];
+        Arrays.fill(test, 4);
+        test.clone()
+        System.out.println("Array test " + Arrays.toString(test));
         int[] a2 = MisMetodosConArrays.insert(a1, 3, 2);
         System.out.println(Arrays.toString(a2));
 
