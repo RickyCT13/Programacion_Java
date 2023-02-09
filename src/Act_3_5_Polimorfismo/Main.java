@@ -11,12 +11,12 @@ public class Main {
         a.speak();
         ((Bird) a).fly();
         
-        Instrumento ins;
+        /* Instrumento ins;
         
         ins = new Guitarra();
         ins.tocar();
         
         ins = new Tambor();
-        ins.tocar();
+        ins.tocar(); */
     }
 }
