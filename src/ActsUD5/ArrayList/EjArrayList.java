@@ -14,6 +14,10 @@ public class EjArrayList {
 
 
         System.out.println(cars);
+        cars.remove(1);
+        System.out.println(cars);
+        cars.set(1, "a");
+        System.out.println(cars);
 
     }
 }
