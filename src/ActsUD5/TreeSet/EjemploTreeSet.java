@@ -27,13 +27,24 @@ public class EjemploTreeSet {
         Persona p1 = new Persona("Juan", 15);
         Persona p2 = new Persona("Carlos", 18);
         Persona p3 = new Persona("Alejandro", 23);
+        Persona p4 = new Persona("Juan", 17);
+        Persona px = new Persona("Berto", 15);
+        Persona p5 = new Persona("Carlos", 13);
+        Persona p6 = new Persona("Alejandro", 33);
 
         TreeSet<Persona> arbol3 = new TreeSet<>();
+
+
+
         arbol3.add(p1);
         arbol3.add(p2);
-        arbol3.add(p3);
+
+        arbol3.add(p6);
+
+
 
         System.out.println(arbol3);
-
+        arbol3.add(px);
+        System.out.println(arbol3);
     }
 }

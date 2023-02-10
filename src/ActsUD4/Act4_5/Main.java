@@ -9,7 +9,7 @@ public class Main {
 
         int[] test = new int[5];
         Arrays.fill(test, 4);
-        test.clone()
+        test.clone();
         System.out.println("Array test " + Arrays.toString(test));
         int[] a2 = MisMetodosConArrays.insert(a1, 3, 2);
         System.out.println(Arrays.toString(a2));
