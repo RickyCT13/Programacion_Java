@@ -37,12 +37,12 @@ public class Circle extends Geometry implements Coloreable {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return (Math.PI*(Math.pow(radius, 2)));
     }
 
     @Override
-    double calculatePerimeter() {
-        return (Math.PI*(radius *2));
+    public double calculatePerimeter() {
+        return (Math.PI*(radius * 2));
     }
 }

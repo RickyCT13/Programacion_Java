@@ -64,7 +64,7 @@ public class Triangle extends Geometry implements Coloreable {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         for (Double side : getSides()) {
             if (Objects.equals(side, base)) {
                 return ((base* height)/2);
@@ -74,7 +74,7 @@ public class Triangle extends Geometry implements Coloreable {
     }
 
     @Override
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return (sides[0] + sides[1] + sides[2]);
     }
 }
