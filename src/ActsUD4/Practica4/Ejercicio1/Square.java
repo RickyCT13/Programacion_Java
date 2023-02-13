@@ -38,12 +38,12 @@ public class Square extends Geometry implements Coloreable{
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return Math.pow(sideLength, 2);
     }
 
     @Override
-    double calculatePerimeter() {
-        return sideLength *4;
+    public double calculatePerimeter() {
+        return sideLength * 4;
     }
 }

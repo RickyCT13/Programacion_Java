@@ -1,10 +1,10 @@
 package ActsUD4.Practica4.Ejercicio1;
 
 abstract class Geometry {
-    double area;
-    double perimeter;
+    protected double area;
+    protected double perimeter;
 
-    abstract double calculateArea();
+    protected abstract double calculateArea();
 
-    abstract double calculatePerimeter();
+    protected abstract double calculatePerimeter();
 }
