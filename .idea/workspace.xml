@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="13/2: Avance en Practica 4">
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio5/MainEj5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio5/MetodosEj5.java" afterDir="false" />
+    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción).">
+      <change afterPath="$PROJECT_DIR$/src/ActsUD5/EjArrayList2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/ArrayList/EjArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/ArrayList/EjArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <recent name="ActsUD5.Persona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEj5">
+  <component name="RunManager" selected="Application.EjArrayList">
     <configuration name="EjArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ActsUD5.ArrayList.EjArrayList" />
       <module name="Prog Unidad 4" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjArrayList" />
         <item itemvalue="Application.MainEj5" />
         <item itemvalue="Application.MainEj3" />
         <item itemvalue="Application.MainEj2" />
         <item itemvalue="Application.MainEj1" />
-        <item itemvalue="Application.EjArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,7 @@
       <workItem from="1676027265331" duration="4204000" />
       <workItem from="1676035179619" duration="2243000" />
       <workItem from="1676281415015" duration="8336000" />
-      <workItem from="1676447235521" duration="3360000" />
+      <workItem from="1676447235521" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676289832518</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción).">
+      <created>1676450762283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676450762283</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +306,8 @@
     <MESSAGE value="Tema 4" />
     <MESSAGE value="Añadidas mas acts del tema 5 y comienzo de Práctica 4." />
     <MESSAGE value="13/2: Avance en Practica 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="13/2: Avance en Practica 4" />
+    <MESSAGE value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
+    <option name="LAST_COMMIT_MESSAGE" value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
