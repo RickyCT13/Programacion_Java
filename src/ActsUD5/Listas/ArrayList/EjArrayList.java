@@ -1,9 +1,8 @@
-package ActsUD5.ArrayList;
+package ActsUD5.Listas.ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.Objects;
 
 public class EjArrayList {
     public static void main(String[] args) {
