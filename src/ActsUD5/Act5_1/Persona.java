@@ -50,6 +50,7 @@ public class Persona extends ComparadorPorEdad implements Comparable {
         //Uso de equalsIgnoreCase (solo en la condición if) y toLowerCase para insensitividad al caso
     }
 
+
     /** Métodos sobreescritos para comparar por nombre y edad por separado */
     /*@Override
     public int compareTo(Object other) {
