@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="Añadidas mas acts del tema 5 y comienzo de Práctica 4.">
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio2/MainEj2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio3/MainEj3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio3/MetodosEj3.java" afterDir="false" />
+    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción).">
+      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio4/MainEj4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio4/MetodosEj4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_1/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Listas/EjArrayList2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Listas/EjemploLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Coloreable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Coloreable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Geometry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/MainEj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/MainEj1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Operaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio1/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/ArrayList/EjArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Listas/ArrayList/EjArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/EjArrayList2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/TreeSet/EjemploTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Conjuntos/TreeSet/EjemploTreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/TreeSet/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Conjuntos/TreeSet/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2IDLbXH5NGaHHagI9dpS0ekeGbP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,6 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last.edited.regexp": "4867539S",
     "last_opened_file_path": "C:/Users/1DAW_2223_11/IdeaProjects/Prog Unidad 4/src/ActsUD5/Persona",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,7 +86,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "settings.sync",
     "two.files.diff.last.used.file": "C:/Users/1DAW_2223_11/IdeaProjects/Calculadora/src/Calculadora.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -94,16 +96,30 @@
       <recent name="ActsUD5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ActsUD5.Act5_1" />
       <recent name="ActsUD5.Persona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEj3">
+  <component name="RunManager" selected="Application.ActsUD5.Act5_1.Main">
+    <configuration name="ActsUD5.Act5_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActsUD5.Act5_1.Main" />
+      <module name="Prog Unidad 4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ActsUD5.Act5_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActsUD5.ArrayList.EjArrayList" />
+      <option name="MAIN_CLASS_NAME" value="ActsUD5.Listas.ArrayList.EjArrayList" />
       <module name="Prog Unidad 4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActsUD5.ArrayList.*" />
+          <option name="PATTERN" value="ActsUD5.Listas.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActsUD5.TreeSet.EjemploTreeSet" />
+    <configuration name="EjemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActsUD5.Listas.EjemploLinkedList" />
       <module name="Prog Unidad 4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActsUD5.TreeSet.*" />
+          <option name="PATTERN" value="ActsUD5.Listas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActsUD4.Practica4.Ejercicio1.MainEj1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActsUD5.Listas.EjArrayList2.Main" />
       <module name="Prog Unidad 4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActsUD4.Practica4.Ejercicio1.*" />
+          <option name="PATTERN" value="ActsUD5.Listas.EjArrayList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEj2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActsUD4.Practica4.Ejercicio2.MainEj2" />
+    <configuration name="MainEj4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActsUD4.Practica4.Ejercicio4.MainEj4" />
       <module name="Prog Unidad 4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActsUD4.Practica4.Ejercicio2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainEj3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActsUD4.Practica4.Ejercicio3.MainEj3" />
-      <module name="Prog Unidad 4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActsUD4.Practica4.Ejercicio3.*" />
+          <option name="PATTERN" value="ActsUD4.Practica4.Ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainEj3" />
-        <item itemvalue="Application.MainEj2" />
-        <item itemvalue="Application.MainEj1" />
+        <item itemvalue="Application.ActsUD5.Act5_1.Main" />
+        <item itemvalue="Application.EjemploLinkedList" />
+        <item itemvalue="Application.MainEj4" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EjArrayList" />
-        <item itemvalue="Application.EjemploTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +193,12 @@
       <workItem from="1675942003595" duration="4876000" />
       <workItem from="1676027265331" duration="4204000" />
       <workItem from="1676035179619" duration="2243000" />
-      <workItem from="1676281415015" duration="8050000" />
+      <workItem from="1676281415015" duration="8336000" />
+      <workItem from="1676447235521" duration="5355000" />
+      <workItem from="1676533929729" duration="186000" />
+      <workItem from="1676537274678" duration="860000" />
+      <workItem from="1676641282203" duration="501000" />
+      <workItem from="1676886371271" duration="8473000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -234,7 +242,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676036873731</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="13/2: Avance en Practica 4">
+      <created>1676289832518</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676289832518</updated>
+    </task>
+    <task id="LOCAL-00008" summary="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción).">
+      <created>1676450762283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676450762283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción).">
+      <created>1676453307776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676453307776</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +326,9 @@
     <MESSAGE value="a" />
     <MESSAGE value="Tema 4" />
     <MESSAGE value="Añadidas mas acts del tema 5 y comienzo de Práctica 4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidas mas acts del tema 5 y comienzo de Práctica 4." />
+    <MESSAGE value="13/2: Avance en Practica 4" />
+    <MESSAGE value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
+    <option name="LAST_COMMIT_MESSAGE" value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
