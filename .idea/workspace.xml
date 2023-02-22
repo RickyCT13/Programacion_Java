@@ -7,15 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="20/2: Progreso en Práctica 4 y comienzo 5.1">
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/MainEj6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActsUD5/Map/Main.java" afterDir="false" />
+    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="20/2: Progreso en Práctica 4 y comienzo 5.2">
+      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/GestionDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Sede.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act/EjercicioLinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Conjuntos/Act/EjercicioLinkedHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Departamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/MainEj6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD4/Practica4/Ejercicio6/MainEj6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +198,8 @@
       <workItem from="1676537274678" duration="860000" />
       <workItem from="1676641282203" duration="501000" />
       <workItem from="1676886371271" duration="8542000" />
-      <workItem from="1677051724945" duration="6667000" />
+      <workItem from="1677051724945" duration="6730000" />
+      <workItem from="1677067501362" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676895002143</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20/2: Progreso en Práctica 4 y comienzo 5.2">
+      <created>1677058511981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677058511981</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +354,8 @@
     <MESSAGE value="13/2: Avance en Practica 4" />
     <MESSAGE value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
     <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/2: Progreso en Práctica 4 y comienzo 5.1" />
+    <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/2: Progreso en Práctica 4 y comienzo 5.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

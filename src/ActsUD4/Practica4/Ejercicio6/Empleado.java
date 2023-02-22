@@ -7,11 +7,12 @@ public class Empleado {
     private final String[] apellidos = new String[2];
     private short annoNacimiento;
     private boolean reduccionJornada;
+    private String departamento;
 
 
     /** Métodos Constructores */
     public Empleado() {}
-    public Empleado(String idEmpleado, String dni, String nombre, String apellido1, String apellido2, short annoNacimiento, boolean reduccionJornada) {
+    public Empleado(String idEmpleado, String dni, String nombre, String apellido1, String apellido2, short annoNacimiento, boolean reduccionJornada, String departamento) {
         this.idEmpleado = idEmpleado;
         this.dni = dni;
         this.nombre = nombre;
@@ -19,6 +20,7 @@ public class Empleado {
         this.apellidos[1] = apellido2;
         this.annoNacimiento = annoNacimiento;
         this.reduccionJornada = reduccionJornada;
+        this.departamento = departamento;
     }
 
 
@@ -48,6 +50,10 @@ public class Empleado {
         return reduccionJornada;
     }
 
+    public String getDepartamento() {
+        return departamento;
+    }
+
     public void setIdEmpleado(String idEmpleado) {
         this.idEmpleado = idEmpleado;
     }
@@ -71,5 +77,9 @@ public class Empleado {
 
     public void setReduccionJornada(boolean reduccionJornada) {
         this.reduccionJornada = reduccionJornada;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
     }
 }

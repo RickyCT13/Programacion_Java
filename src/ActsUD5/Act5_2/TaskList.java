@@ -7,7 +7,14 @@ import java.util.Objects;
 
 public class TaskList {
     List<String> tasks;
-    boolean isComplete;
+    private static class Task {
+        public String description;
+        public boolean isComplete = false;
+
+        Task(String description) {
+            this.description = description;
+        }
+    }
 
     TaskList() {}
 
@@ -29,11 +36,11 @@ public class TaskList {
     }
 
     public void completeTask(String task) {
-        tasks.get(tasks.indexOf(task))
+
     }
 
     public String[] getTasks() {
-
+        return null;
     }
 
 }
