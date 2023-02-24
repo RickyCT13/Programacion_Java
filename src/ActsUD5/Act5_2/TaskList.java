@@ -19,21 +19,21 @@ public class TaskList {
         @Override
         public String toString() {
             String progress;
-            if (isComplete) progress = "✔";
+            if (isComplete) progress = "\u2714";
             else progress = " ";
             return description + '[' + progress + ']' + "\n";
         }
     }
 
-    TaskList() {}
 
     TaskList(String storageMode) {
         if (Objects.equals(storageMode, "ArrayList")) {
             list = new ArrayList<>();
         }
-        else {
+        else if (Objects.equals(storageMode, "LinkedList")) {
             list = new LinkedList<>();
         }
+        else System.out.println("Error");
     }
 
     public void addTask(String t) {

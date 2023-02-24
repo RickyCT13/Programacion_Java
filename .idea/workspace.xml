@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="20/2: Progreso en Práctica 4 y comienzo 5.2">
+    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="24/2: Act 5.2 Hecha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" afterDir="false" />
@@ -200,7 +200,7 @@
       <workItem from="1677051724945" duration="6730000" />
       <workItem from="1677067501362" duration="2838000" />
       <workItem from="1677151068590" duration="3931000" />
-      <workItem from="1677241261858" duration="2100000" />
+      <workItem from="1677241261858" duration="4234000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677160527197</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="24/2: Act 5.2 Hecha">
+      <created>1677243413876</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677243413876</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +377,8 @@
     <MESSAGE value="15/2: Avance en Practica 4 (Ej5 hecho correctamente, Ej4 necesita correción)." />
     <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.1" />
     <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/2: Progreso en Práctica 4 y comienzo 5.2" />
+    <MESSAGE value="24/2: Act 5.2 Hecha" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/2: Act 5.2 Hecha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

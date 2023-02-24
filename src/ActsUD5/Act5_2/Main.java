@@ -24,6 +24,11 @@ public class Main {
 
         System.out.println(Arrays.toString(groceries.getTasks()));
 
+        TaskList plansForToday = new TaskList("LinkedList");
+        plansForToday.addTask("aaa");
+        plansForToday.addTask("A");
+
+        System.out.println(Arrays.toString(plansForToday.getTasks()));
 
     }
 }
