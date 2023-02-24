@@ -6,13 +6,22 @@ import java.util.List;
 import java.util.Objects;
 
 public class TaskList {
-    List<String> tasks;
+    List<Task> list;
     private static class Task {
         public String description;
-        public boolean isComplete = false;
+        public boolean isComplete;
 
         Task(String description) {
             this.description = description;
+            this.isComplete = false;
+        }
+
+        @Override
+        public String toString() {
+            String progress;
+            if (isComplete) progress = "✔";
+            else progress = " ";
+            return description + '[' + progress + ']' + "\n";
         }
     }
 
@@ -20,27 +29,31 @@ public class TaskList {
 
     TaskList(String storageMode) {
         if (Objects.equals(storageMode, "ArrayList")) {
-            tasks = new ArrayList<>();
+            list = new ArrayList<>();
         }
         else {
-            tasks = new LinkedList<>();
+            list = new LinkedList<>();
         }
     }
 
-    public void addTask(String task) {
-        tasks.add(task);
+    public void addTask(String t) {
+        list.add(new Task(t));
     }
 
-    public void removeTask(String task) {
-        tasks.remove(task);
+    public void removeTask(String t) {
+        list.removeIf(a -> a.description.equals(t));
     }
 
-    public void completeTask(String task) {
-
+    public void completeTask(String t) {
+        for (Task a : list) {
+            if (a.description.equals(t)) {
+                a.isComplete = true;
+            }
+        }
     }
 
-    public String[] getTasks() {
-        return null;
+    public Object[] getTasks() {
+        return list.toArray();
     }
 
 }
