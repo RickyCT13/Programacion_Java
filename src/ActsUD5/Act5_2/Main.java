@@ -30,5 +30,8 @@ public class Main {
 
         System.out.println(Arrays.toString(plansForToday.getTasks()));
 
+        TaskList someList = new TaskList("a");
+        someList.addTask("Do the dishes");
+
     }
 }

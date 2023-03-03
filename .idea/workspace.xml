@@ -12,18 +12,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment="24/2: Act 5.2 Hecha">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Persona_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Maps/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persona/ComparadorPorEdad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persona/Persona.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persona/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ab604a02-da2b-4574-ba2b-1a3ae55c8cf8" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog Unidad 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prog Unidad 4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/Maps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ActsUD5/Act5_2/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ActsUD5/Act5_2/TaskList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Misc/Maps/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,7 +83,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
     &quot;last.edited.regexp&quot;: &quot;4867539S&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_11/IdeaProjects/Prog Unidad 4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_11/IdeaProjects/Prog 1DAW&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,7 +109,7 @@
       <recent name="ActsUD5.Persona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Misc.Maps.Main">
+  <component name="RunManager" selected="Application.ActsUD5.Act5_2.Main">
     <configuration name="ActsUD5.Act5_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ActsUD5.Act5_2.Main" />
       <module name="Prog Unidad 4" />
@@ -181,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Misc.Maps.Main" />
         <item itemvalue="Application.ActsUD5.Act5_2.Main" />
+        <item itemvalue="Application.Misc.Maps.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ActsUD5.Map.Main" />
         <item itemvalue="Application.ActsUD5.Maps.HashMap.Main" />
@@ -220,7 +216,9 @@
       <workItem from="1677743688616" duration="873000" />
       <workItem from="1677748069757" duration="1274000" />
       <workItem from="1677760282966" duration="9000" />
-      <workItem from="1677833127026" duration="1072000" />
+      <workItem from="1677833127026" duration="1175000" />
+      <workItem from="1677834432660" duration="43000" />
+      <workItem from="1677834513123" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1673442883917</created>
@@ -327,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677247252597</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".">
+      <created>1677834269623</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677834269623</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +410,8 @@
     <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.1" />
     <MESSAGE value="20/2: Progreso en Práctica 4 y comienzo 5.2" />
     <MESSAGE value="24/2: Act 5.2 Hecha" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/2: Act 5.2 Hecha" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

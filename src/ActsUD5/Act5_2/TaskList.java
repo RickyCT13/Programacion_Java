@@ -3,10 +3,16 @@ package ActsUD5.Act5_2;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Objects;
 
 public class TaskList {
+    /**
+     * El campo de esta clase será una lista de objetos de la clase interna Task
+     */
     List<Task> list;
+
+    /**
+     * Clase interna Task con descripción y si está hecha o no.
+     */
     private static class Task {
         public String description;
         public boolean isComplete;
@@ -16,6 +22,9 @@ public class TaskList {
             this.isComplete = false;
         }
 
+        /**
+         * @return String con los valores de la tarea
+         */
         @Override
         public String toString() {
             String progress;
@@ -25,15 +34,21 @@ public class TaskList {
         }
     }
 
-
+    /**
+     * @param storageMode Decide si se usará ArrayList o LinkedList mediante el polimorfismo.
+     *                    Insensitivo al caso. Es obligatorio especificar el tipo y que este sea uno de los dos soportados.
+     *                    Si no es así, dará un error.
+     * @throws NullPointerException en caso de que se intente añadir, borrar o modificar la lista al no especificar el tipo
+     * de almacenaje.
+     */
     TaskList(String storageMode) {
-        if (Objects.equals(storageMode, "ArrayList")) {
+        if (storageMode.equalsIgnoreCase("ArrayList")) {
             list = new ArrayList<>();
         }
-        else if (Objects.equals(storageMode, "LinkedList")) {
+        else if (storageMode.equalsIgnoreCase("LinkedList")) {
             list = new LinkedList<>();
         }
-        else System.out.println("Error");
+        else System.out.println("Error: tipo de almacenaje desconocido / no soportado.");
     }
 
     public void addTask(String t) {
@@ -55,5 +70,4 @@ public class TaskList {
     public Object[] getTasks() {
         return list.toArray();
     }
-
 }

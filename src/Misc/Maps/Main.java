@@ -2,6 +2,7 @@ package Misc.Maps;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +18,12 @@ public class Main {
         binaryDecimal.put(7, "111");
 
         System.out.println(binaryDecimal);
+
+        Map<Integer, String> myTreeMap = new TreeMap<>();
+        myTreeMap.put(3, "A");
+        myTreeMap.put(1, "B");
+        myTreeMap.put(2, "C");
+
+        System.out.println(myTreeMap);
     }
 }
